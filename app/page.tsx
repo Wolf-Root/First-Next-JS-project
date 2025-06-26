@@ -1,5 +1,3 @@
-"use client";
-
 export default function Home() {
   return (
     <section className="min-h-screen bg-white">
@@ -19,7 +17,7 @@ export default function Home() {
 
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <p className="relative rounded-full px-3 py-1 text-sm text-lime-600 ring-1 ring-lime-900/10 duration-300 hover:ring-lime-900/20 hover:bg-lime-500/20">
+            <p className="relative rounded-full px-3 py-1 text-sm text-black ring-1 ring-lime-600 duration-300 hover:ring-lime-900/20 hover:bg-lime-500/20">
               Hello
             </p>
           </div>
@@ -34,13 +32,13 @@ export default function Home() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="https://nextjs.org/"
-                className="rounded-md bg-lime-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-lime-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600"
+                className="rounded-md bg-lime-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs duration-300 hover:bg-lime-800/80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-800"
               >
                 Get started
               </a>
               <a
                 href="https://nextjs.org/docs"
-                className="text-sm font-semibold text-lime-900"
+                className="text-sm font-semibold text-lime-800 duration-300 hover:text-green-700"
               >
                 Learn more <span aria-hidden="true">→</span>
               </a>
