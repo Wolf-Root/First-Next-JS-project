@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <section className="bg-gray-100">
+    <section className="bg-gray-100 min-h-screen pt-20">
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
+        <h1 className="font-bold mb-4">Privacy Policy</h1>
 
         <p className="mb-4">
           This privacy policy outlines how YouDiv Solutions collects, uses, and
@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
           located at you-div.netlify.app.
         </p>
 
-        <h2 className="text-2xl font-bold mb-2">Information We Collect</h2>
+        <h2 className="font-semibold mb-2">Information We Collect</h2>
 
         <p className="mb-4">We may collect the following information:</p>
 
@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
           <li>Other relevant data for customer support and analysis</li>
         </ul>
 
-        <h2 className="text-2xl font-bold mb-2">How We Use the Information</h2>
+        <h2 className="font-semibold mb-2">How We Use the Information</h2>
 
         <p className="mb-4">
           We use the information we collect for the following purposes:
@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
           <li>To comply with legal obligations</li>
         </ul>
 
-        <h2 className="text-2xl font-bold mb-2">Security</h2>
+        <h2 className="font-semibold mb-2">Security</h2>
 
         <p className="mb-4">
           We are committed to ensuring that your information is secure. We have
@@ -56,7 +56,7 @@ export default function PrivacyPolicy() {
           procedures to safeguard the information we collect online.
         </p>
 
-        <h2 className="text-2xl font-bold mb-2">Cookies</h2>
+        <h2 className="font-semibold mb-2">Cookies</h2>
 
         <p className="mb-4">
           We use cookies to enhance your browsing experience. A cookie is a
@@ -71,7 +71,7 @@ export default function PrivacyPolicy() {
           to decline cookies if you prefer.
         </p>
 
-        <h2 className="text-2xl font-bold mb-2">Third-Party Links</h2>
+        <h2 className="font-semibold mb-2">Third-Party Links</h2>
 
         <p className="mb-4">
           Our website may contain links to external sites. Once you leave our
@@ -80,7 +80,7 @@ export default function PrivacyPolicy() {
           policies before providing any data.
         </p>
 
-        <h2 className="text-2xl font-bold mb-2">Managing Your Information</h2>
+        <h2 className="font-semibold mb-2">Managing Your Information</h2>
 
         <p className="mb-4">
           You may choose to restrict the collection or use of your personal
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-bold mb-2">Contact Us</h2>
+        <h2 className="font-semibold mb-2">Contact Us</h2>
 
         <p className="mb-4">
           If you have any questions about this Privacy Policy, please contact

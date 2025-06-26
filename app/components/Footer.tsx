@@ -12,13 +12,13 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           {/* Logo */}
           <div className="mb-6 md:mb-0">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex flex-col gap-2 items-center">
               <Image
                 src="/logo.png"
-                className="h-8 me-3"
+                className="me-3"
                 alt="Logo"
-                width={32}
-                height={32}
+                width={50}
+                height={50}
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Wolf Root
@@ -98,14 +98,14 @@ export default function Footer() {
               </p>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href={"/PrivacyPolicy"} className="hover:underline">
+                  <Link href={"/PrivacyAndPolicy"} className="hover:underline">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <Link href={"TermsAndConditions"} className="hover:underline">
                     Terms &amp; Conditions
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -161,5 +161,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-
